@@ -331,6 +331,7 @@ main .HeroImg img {
     display:flex;
     align-items:center;
     justify-content:space-between;
+    padding:0 20px;
 
 }
 .CloseSidebar{
@@ -643,7 +644,7 @@ footer p {
     .product-item .AddToCart{
         padding: 10px 0;
         width: 100%;
-        font-size: 14px;
+        font-size: 15px;
         align-items: center;
         justify-content: center;
     }
