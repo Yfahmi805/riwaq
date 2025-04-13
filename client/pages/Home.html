@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover unique pre-used fashion with Riwaq. Shop eco-friendly, curated vintage styles.">
+    <title>Riwaq-home</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./client/styles/home.css">
+</head>
+
+<body>
+    <header>
+        <button class="sidebarBtn" onclick='showSiddebar()'>
+            <i class="bx bx-menu"></i>
+
+        </button>
+        <div class="sidebar">
+            <div class="logo">
+                <img src="./client/images/logo.png" alt="Riwaq">
+                <button class="CloseSidebar">
+                    <i class="bx bx-x" onclick='hideSidebar()'></i>
+                </button>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Sellers Space</a></li>
+                <li><a href="#">Signup</a></li>
+            </ul>
+            <div class="socail-icons">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-pinterest'></i></i></a>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="./client/images/logo.png" alt="Riwaq">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Sellers Space</a></li>
+            </ul>
+        </div>
+        <div class="actionBtns">
+            <button class="Search">
+                <i class='bx bx-search'></i>
+            </button>
+            <button class="ShoppingBag">
+                <i class='bx bx-shopping-bag'></i>
+            </button>
+            <button class="Login">
+                <i class='bx bx-user'></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <h1>We give new life to pre-used clothes</h1>
+            <p>Discover unique, eco-friendly fashion pieces curated by creative designers.</p>
+            <button class="callToAction">Discover Now</button>
+        </div>
+        <div class="HeroImg">
+            <img src="./client/images/Illustrated1.png">
+        </div>
+    </main>
+    <section class="categories">
+        <h2>Categories</h2>
+        <div class="category-list">
+            <div class="category-item">
+                <img src="./client/images/tshirt.jpeg" alt="Category 1">
+                <h3>T-Shirts</h3>
+            </div>
+            <div class="category-item">
+                <img src="./client/images/pants.jpeg" alt="Category 1">
+                <h3>Pants & Jeans</h3>
+            </div>
+            <div class="category-item">
+                <img src="./client/images/shoes.jpeg" alt="Category 2">
+                <h3>Shoes</h3>
+            </div>
+            <div class="category-item">
+                <img src="./client/images/jackets.jpeg" alt="Category 3">
+                <h3>Jackets & Coats</h3>
+            </div>
+            <div class="category-item">
+                <img src="./client/images/Dresses.jpeg" alt="Category 3">
+                <h3>Dresses & Skirts</h3>
+            </div>
+            <div class="category-item">
+                <img src="./client/images/accessoirs.jpeg" alt="Category 3">
+                <h3>Accessories</h3>
+            </div>
+        </div>
+    </section>
+    <section class="trending">
+        <h2>Trending</h2>
+        <div class="slider-container">
+            <button class="slider-button prev">
+                <i class='bx bx-chevron-left'></i>
+            </button>
+            <div class="trending-list">
+                <div class="trending-item">
+                    <img src="./client/images/tranding1.jpeg" alt="Trending 1">
+                    <h3 class="productName">Vintage Denim Jacket</h3>
+                    <span class="artist">Studio lamp</span>
+                    <p class="price">$45.00</p>
+                    <button class="AddToCart">
+                        <i class='bx bx-cart-add'></i>
+                        Add to cart
+                    </button>
+                </div>
+                <div class="trending-item">
+                    <img src="./client/images/tranding2.jpeg" alt="Trending 2">
+                    <h3 class="productName">Graphic Tee</h3>
+                    <span class="artist">Studio lamp</span>
+                    <p class="price">$25.00</p>
+                    <button class="AddToCart">
+                        <i class='bx bx-cart-add'></i>
+                        Add to cart
+                    </button>
+                </div>
+                <div class="trending-item">
+                    <img src="./client/images/tranding10.jpeg" alt="Trending 3">
+                    <h3 class="productName">Leather Boots</h3>
+                    <span class="artist">Studio lamp</span>
+                    <p class="price">$85.00</p>
+                    <button class="AddToCart">
+                        <i class='bx bx-cart-add'></i>
+                        Add to cart
+                    </button>
+                </div>
+                <div class="trending-item">
+                    <img src="./client/images/sneakers.jpeg" alt="Trending 1">
+                    <h3 class="productName">Vintage Denim Jacket</h3>
+                    <span class="artist">Studio lamp</span>
+                    <p class="price">$45.00</p>
+                    <button class="AddToCart">
+                        <i class='bx bx-cart-add'></i>
+                        Add to cart
+                    </button>
+                </div>
+                <div class="trending-item">
+                    <img src="./client/images/tranding7.png" alt="Trending 2">
+                    <h3 class="productName">Graphic Tee</h3>
+                    <span class="artist">Studio lamp</span>
+                    <p class="price">$25.00</p>
+                    <button class="AddToCart">
+                        <i class='bx bx-cart-add'></i>
+                        Add to cart
+                    </button>
+                </div>
+                <div class="trending-item">
+                    <img src="./client/images/tranding8.png" alt="Trending 3">
+                    <h3 class="productName">Leather Boots</h3>
+                    <span class="artist">Studio lamp</span>
+                    <p class="price">$85.00</p>
+                    <button class="AddToCart">
+                        <i class='bx bx-cart-add'></i>
+                        Add to cart
+                    </button>
+                </div>
+                <div class="trending-item">
+                    <img src="./client/images/tranding5.jpeg" alt="Trending 1">
+                    <h3 class="productName">Vintage Denim Jacket</h3>
+                    <span class="artist">Studio lamp</span>
+                    <p class="price">$45.00</p>
+                    <button class="AddToCart">
+                        <i class='bx bx-cart-add'></i>
+                        Add to cart
+                    </button>
+                </div>
+                <div class="trending-item">
+                    <img src="./client/images/tranding4.jpeg" alt="Trending 2">
+                    <h3 class="productName">Graphic Tee</h3>
+                    <span class="artist">Studio lamp</span>
+                    <p class="price">$25.00</p>
+                    <button class="AddToCart">
+                        <i class='bx bx-cart-add'></i>
+                        Add to cart
+                    </button>
+                </div>
+                <div class="trending-item">
+                    <img src="./client/images/tranding9.jpeg" alt="Trending 3">
+                    <h3 class="productName">Leather Boots</h3>
+                    <span class="artist">Studio lamp</span>
+                    <p class="price">$85.00</p>
+                    <button class="AddToCart">
+                        <i class='bx bx-cart-add'></i>
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+            <button class="slider-button next">
+                <i class='bx bx-chevron-right' ></i>
+            </button>
+        </div>
+    </section>
+    <section class="mission">
+        <div class="mission-content">
+          <h2>Our Mission</h2>
+          <p>
+            We love to create a unique online fashion marketplace that connects local artisans and fashion enthusiasts, empowering sustainable shopping and celebrating authentic style from Morocco and beyond.
+          </p>
+        </div>
+      </section>
+    <section class="forYou">
+        <h2>For You</h2>
+        <div class="products-list">
+            <div class="product-item">
+                <img src="./client/images/tranding5.jpeg" alt="Trending 3">
+                <h3 class="productName">Leather Boots</h3>
+                <span class="artist">Studio lamp</span>
+                <p class="price">$85.00</p>
+                <button class="AddToCart">
+                    <i class='bx bx-cart-add'></i>
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="product-item">
+                <img src="./client/images/tranding1.jpeg" alt="Trending 3">
+                <h3 class="productName">Leather Boots</h3>
+                <span class="artist">Studio lamp</span>
+                <p class="price">$85.00</p>
+                <button class="AddToCart">
+                    <i class='bx bx-cart-add'></i>
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="product-item">
+                <img src="./client/images/tranding2.jpeg" alt="Trending 3">
+                <h3 class="productName">Leather Boots</h3>
+                <span class="artist">Studio lamp</span>
+                <p class="price">$85.00</p>
+                <button class="AddToCart">
+                    <i class='bx bx-cart-add'></i>
+                    Add to cart
+                </button>
+            </div>
+
+
+            <div class="product-item">
+                <img src="./client/images/tranding4.jpeg" alt="Trending 3">
+                <h3 class="productName">Leather Boots</h3>
+                <span class="artist">Studio lamp</span>
+                <p class="price">$85.00</p>
+                <button class="AddToCart">
+                    <i class='bx bx-cart-add'></i>
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="product-item">
+                <img src="./client/images/tranding1.jpeg" alt="Trending 3">
+                <h3 class="productName">Leather Boots</h3>
+                <span class="artist">Studio lamp</span>
+                <p class="price">$85.00</p>
+                <button class="AddToCart">
+                    <i class='bx bx-cart-add'></i>
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="product-item">
+                <img src="./client/images/tranding7.png" alt="Trending 3">
+                <h3 class="productName">Leather Boots</h3>
+                <span class="artist">Studio lamp</span>
+                <p class="price">$85.00</p>
+                <button class="AddToCart">
+                    <i class='bx bx-cart-add'></i>
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="product-item">
+                <img src="./client/images/tranding8.png" alt="Trending 3">
+                <h3 class="productName">Leather Boots</h3>
+                <span class="artist">Studio lamp</span>
+                <p class="price">$85.00</p>
+                <button class="AddToCart">
+                    <i class='bx bx-cart-add'></i>
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="product-item">
+                <img src="./client/images/tranding9.jpeg" alt="Trending 3">
+                <h3 class="productName">Leather Boots</h3>
+                <span class="artist">Studio lamp</span>
+                <p class="price">$85.00</p>
+                <button class="AddToCart">
+                    <i class='bx bx-cart-add'></i>
+                    Add to cart
+                </button>
+            </div>
+
+            <div class="product-item">
+                <img src="./client/images/tranding10.jpeg" alt="Trending 3">
+                <h3 class="productName">Leather Boots</h3>
+                <span class="artist">Studio lamp</span>
+                <p class="price">$85.00</p>
+                <button class="AddToCart">
+                    <i class='bx bx-cart-add'></i>
+                    Add to cart
+                </button>
+            </div>
+            <div class="product-item">
+                <img src="./client/images/tranding7.png" alt="Trending 3">
+                <h3 class="productName">Leather Boots</h3>
+                <span class="artist">Studio lamp</span>
+                <p class="price">$85.00</p>
+                <button class="AddToCart">
+                    <i class='bx bx-cart-add'></i>
+                    Add to cart
+                </button>
+            </div>
+        </div>
+        <div class="loadmore">
+            <button>Load more</button>
+        </div>
+    </section>
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <img src="https://img.icons8.com/ios-filled/100/shopping-bag.png" />
+            <h3>Browse</h3>
+            <p>Discover clothes from trusted sellers and local cooperatives.</p>
+          </div>
+          <div class="step">
+            <img src="https://img.icons8.com/ios-filled/100/shopping-cart.png" />
+            <h3>Order</h3>
+            <p>Buy your favorite pieces with secure checkout.</p>
+          </div>
+          <div class="step">
+            <img src="https://img.icons8.com/ios-filled/100/delivery.png" />
+            <h3>Receive</h3>
+            <p>Enjoy fast, eco-friendly delivery to your door.</p>
+          </div>
+        </div>
+      </section>
+    <section class="panel">
+        <div class="panel-content">
+            <h2>Join the Riwaq Community</h2>
+            <p>Be part of a sustainable fashion movement. Share your style, connect with others, and make a difference.</p>
+            <button class="join-button">Join Now</button>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="./client/images/logo.png" alt="Riwaq">
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Sellers Space</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-instagram-alt'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-pinterest'></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2025 Riwaq. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const trendingList = document.querySelector('.trending-list');
+            const prevButton = document.querySelector('.slider-button.prev');
+            const nextButton = document.querySelector('.slider-button.next');
+            const itemWidth = 320; // Width of item + margin
+            let currentPosition = 0;
+
+            const moveSlider = (direction) => {
+                const maxScroll = trendingList.scrollWidth - trendingList.clientWidth;
+
+                if (direction === 'next') {
+                    currentPosition = Math.min(currentPosition + itemWidth * 1, maxScroll);
+                } else {
+                    currentPosition = Math.max(currentPosition - itemWidth * 1, 0);
+                }
+
+                trendingList.style.transform = `translateX(-${currentPosition}px)`;
+            };
+
+            prevButton.addEventListener('click', () => moveSlider('prev'));
+            nextButton.addEventListener('click', () => moveSlider('next'));
+        });
+
+        function showSiddebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'block';
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none';
+        }
+            
+
+    </script>
+</body>
+
+</html>
