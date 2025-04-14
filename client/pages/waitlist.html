@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./client/styles/waitlist.css">
+    <title>Riwaq</title>
+</head>
+<body>
+
+
+    <main>
+        <div class="panel">
+            <div class="panel-content">
+                <div class="logo">
+                    <img src="./client/images/logo.png" alt="Riwaq">
+                </div>
+                <h2>Join the Riwaq Community</h2>
+                <p>Be part of a sustainable fashion movement. Share your style, connect with others, and make a difference.</p>
+                <button class="join-button" onclick="showJoin()">Join Now</button>
+            </div>
+        </div>
+        <div class="join-form">
+            <header>
+                <div class="logo">
+                    <img src="./client/images/logo.png" alt="Riwaq">
+                </div>
+                <button class="Backbtn" onclick="hidejoin()">Back</button>
+            </header>
+            
+            <h2>Join Now</h2>
+            <p>Let us know more about you</p>
+            <form id="waitlistForm">
+                <form id="waitlistForm">
+                    <input type="text" id="name" placeholder="Your Name" required />
+                    <input type="email" id="email" placeholder="Your Email" required />
+                    <button type="submit" id="submitBtn">Join</button>
+                </form>
+                <div id="formMessage" class="message-container" style="display: none;"></div>
+                
+            </form>
+            <span>Any problems: <a href="">Contact Us</a></span>
+        </div>
+
+    </main>
+    
+    <script>
+        
+        function showJoin() {
+            const join = document.querySelector('.join-form');
+            join.style.display = 'block';
+            document.querySelector('.panel').style.display = 'none';
+        }
+        function hidejoin() {
+            const join = document.querySelector('.join-form');
+            join.style.display = 'none';
+            document.querySelector('.panel').style.display = 'flex';
+        }
+    </script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.js"></script>
+
+  
+    <script type="module" src="./index.js"></script>
+
+
+    </script>
+</body>
+</html>

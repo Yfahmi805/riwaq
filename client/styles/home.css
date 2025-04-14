@@ -93,9 +93,9 @@ header {
 }
 
 main {
-    margin: 20px 40px;
+    
     padding: 20px;
-    border-radius: 20px;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -194,7 +194,7 @@ main .HeroImg img {
 
 .category-item img {
     width: 100%;
-    height: auto;
+    height: 100px;
     margin-bottom: 10px;
     border-radius: 50%;
     border: 2px solid var(--primary-color);
@@ -233,6 +233,8 @@ main .HeroImg img {
 .product-item {
     flex: 0 0 300px;
     margin-right: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 
 .slider-button {
@@ -264,7 +266,7 @@ main .HeroImg img {
 .trending-item img,
 .product-item img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -274,35 +276,34 @@ main .HeroImg img {
 .product-item .productName {
     font-size: 15px;
     color: #000;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .trending-item .artist,
 .product-item .artist {
     font-size: 15px;
     color: #888;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .trending-item .price,
 .product-item .price {
     font-size: 15px;
     color: var(--primary-color);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .trending-item .AddToCart,
 .product-item .AddToCart {
-    background-color: var(--primary-color);
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    width: 100%;
+    background-color: #fff;
+    color: #888;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 600;
-    transition: 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .sidebarBtn {
@@ -683,7 +684,7 @@ footer p {
     }
 
     .product-item {
-
+        margin:0;
         flex: 0 0 40%;
     }
 

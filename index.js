@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebas
 import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.js";
 const firebaseConfig = {
     // Replace with your Firebase config
-    apiKey: "AIzaSyAialoPKm6OjngiN9TX7XL5yMYQ6_KbMZg",
+    apiKey: ,
     authDomain: "riwaq-9a554.firebaseapp.com",
     projectId: "riwaq-9a554",
     storageBucket: "riwaq-9a554.firebasestorage.app",
